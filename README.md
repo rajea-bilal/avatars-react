@@ -16,26 +16,6 @@ First, import the reviews data into your project. This data should be an array o
 
 Then, set up a state value that controls which person from the list is displayed.
 
-#### React Icons (Optional)
-
-[Docs](https://react-icons.github.io/react-icons/)
-
-```sh
-npm install react-icons --save
-```
-
-App.jsx
-
-```js
-import { FaBeer } from 'react-icons/fa';
-const App = () => {
-  return;
-  <div>
-    <h2>Reviews Starter</h2>;
-    <FaBeer className='beer' />
-  </div>;
-};
-```
 
 #### Render First Person
 
@@ -59,4 +39,4 @@ Overall, the flow of the application should look something like this:
 - Set up the reviews data as a state variable using the useState hook.
 - Render the first person's review in the list using their image, name, job, and text properties.
 - Set up buttons to display the next and previous reviews in the list. Keep track of the current index in the reviews array and update it when the user clicks the next or previous button.
-- Set up a button to display a random person's review. This button should select a random index in the reviews array and use it to display the corresponding person's review.
+
